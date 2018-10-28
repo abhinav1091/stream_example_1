@@ -39,7 +39,9 @@ object twitter_tweet {
 
     val tweets = TwitterUtils.createStream(ssc, Some(auth))
 
-//  aaded a line comment
+
+//  aaded a line branch
+
     val statuses = tweets.filter(_.getLang() == "en")
       .map(status =>
       {val string_tweet = status.getText()
