@@ -37,6 +37,7 @@ object append_log_reader {
   }*/
 
     val properties = new Properties()
+
     properties.put("bootstrap.servers", "localhost:9092")
    // properties.put("group.id", "consumer-tutorial")
     properties.put("key.deserializer", classOf[StringDeserializer])
