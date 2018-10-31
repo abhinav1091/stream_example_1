@@ -42,6 +42,7 @@ object twitter_tweet {
 
 //  aaded a line branch
 
+
     val statuses = tweets.filter(_.getLang() == "en")
       .map(status =>
       {val string_tweet = status.getText()
