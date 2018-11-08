@@ -32,6 +32,5 @@ object append_log_reader {
           }
         }
     }
-
   }
 }
