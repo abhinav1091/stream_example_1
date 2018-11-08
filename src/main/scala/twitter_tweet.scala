@@ -36,7 +36,6 @@ object twitter_tweet {
 
     val auth = new OAuthAuthorization(cb.build)
 
-
     val tweets = TwitterUtils.createStream(ssc, Some(auth))
 
 
